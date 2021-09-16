@@ -45,6 +45,8 @@ main() {
         }
         break;
       default:
+        carro.velocidadeAtual = 300;
+        print("A velocidade atual é ${carro.velocidadeAtual} KM/H");
         break;
     }
   }
